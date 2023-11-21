@@ -40,7 +40,7 @@ export class MahasiswaComponent implements OnInit, AfterViewInit {
             element.Alamat,
             element.StatusNikah,
             element.TahunMasuk
-          ]
+          ];
 
           this.table1.row.add(row);
         });
